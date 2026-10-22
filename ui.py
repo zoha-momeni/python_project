@@ -107,8 +107,8 @@ ent_password.place(x=160,y=70)
 ent_nameee=Entry(win,width=37,bg="#b660cd")
 ent_nameee.place(x=160,y=100)
 
-ent_pass=Entry(win,width=49,bg="#b660cd")
-ent_pass.place(x=90,y=395)
+ent_pass=Entry(win,width=45,bg="#b660cd")
+ent_pass.place(x=110,y=395)
 #====list
 lst=Listbox(win,width=37,bg="#b660cd")
 lst.place(x=160,y=150)
@@ -133,7 +133,7 @@ btn_see=Button(win,text="see all",font="maler 10",width=10,bg="#b660cd",command=
 btn_see.place(x=5,y=270)
 
 btn_search=Button(win,text="login",font="maler 10",width=10,bg="#b660cd",command=search)
-btn_search.place(x=5,y=320)
+btn_search.place(x=5,y=300)
 #====scrollbar
 scrol=Scrollbar(win,orient=VERTICAL)
 scrol.place(x=380,y=150,height=164)
